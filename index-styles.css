@@ -43,6 +43,11 @@ main .container button a {
   text-decoration: none;
 }
 
+main .container button:hover {
+  background-color: #fac564 !important;
+  text-decoration: underline;
+}
+
 main .buttons-container { 
   display: flex;
   justify-content: space-between;
