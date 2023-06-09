@@ -35,7 +35,6 @@ main .buttons-container p {
 }
 
 main .buttons-container button {
-  border: none;
   color: white;
   padding: 15px;
   text-align: center;
@@ -46,4 +45,10 @@ main .buttons-container button {
   background-color: transparent;
   border: 1px solid white;
   border-radius: 8px;
+}
+
+main .buttons-container button:hover {
+  background-color: #fac564 !important;
+  text-decoration: underline;
+  font-weight: 700;
 }
